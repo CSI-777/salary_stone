@@ -26,7 +26,7 @@ class Skill_Extractor:
     This class contains the methods related to extracting the skills from text. The class takes in a .jsonl file which has
     all of the skills available for extraction and a model that is a spacy model which has also been installed.
     """
-    def __init__(self, model:str ='en_core_web_lg', skill_dict:str =fp+'/data/jz_skill_patterns.jsonl'):
+    def __init__(self, model:str ='en_core_web_sm', skill_dict:str =fp+'/data/jz_skill_patterns.jsonl'):
         self.nlp = spacy.load(model)
         ruler = self.nlp.add_pipe("entity_ruler")
         ruler.from_disk(skill_dict)
