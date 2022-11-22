@@ -27,11 +27,6 @@ The purpose of this project is to host the methods related to the salary stone p
 * Documentation: https://salary-stone.readthedocs.io.
 
 
-Features
---------
-
-* TODO
-
 Credits
 -------
 

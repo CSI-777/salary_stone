@@ -86,24 +86,29 @@ todo_include_todos = False
 html_theme = 'sphinx_material'
 
 # Set link name generated in the top bar.
-html_title = 'Project Title'
+html_title = 'Salary Stone'
 
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
-    'nav_title': 'Project Name',
+    'nav_title': 'Salary Stone',
 
     # Set you GA account ID to enable tracking
     'google_analytics_account': 'UA-XXXXX',
+    "nav_links": [
+        {"href": "installation", "internal": True, "title": "Installation"},
+        {"href": "usage", "internal": True, "title": "Getting Started"},
+        {"href": "contributing", "internal": True, "title": "Contributing"}
+    ],
 
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
     # 'base_url': 'https://github.com/CSI-777/salary_stone',
 
     # Set the color and the accent color
-    'color_primary': 'blue',
-    'color_accent': 'light-blue',
+    'color_primary': 'grey',
+    'color_accent': 'green',
 
     # Set the repo location to get a badge with stats
     'repo_url': 'https://github.com/CSI-777/salary_stone',
