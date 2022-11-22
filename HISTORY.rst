@@ -2,6 +2,16 @@
 History
 =======
 
+0.2.3 (2022-11-21)
+-------------------
+
+* fix the issue where the package wasn't building due to Jinja / Markupplus.
+
+0.2.2 (2022-11-21)
+------------------
+
+* Fix issue with requirements not being correct.
+
 0.2.1 (2022-11-15)
 ------------------
 
