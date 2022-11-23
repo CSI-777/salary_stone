@@ -4,6 +4,14 @@ salary\_stone package
 Submodules
 ----------
 
+salary\_stone.metrics module
+----------------------------
+
+.. automodule:: salary_stone.metrics
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 salary\_stone.salary\_extractor module
 --------------------------------------
 
