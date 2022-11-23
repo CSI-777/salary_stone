@@ -2,6 +2,14 @@
 History
 =======
 
+0.2.4 ()
+------------------
+
+* Add in the metrics module.
+* Include a method to do skill frequency calculations.
+* Include a method to do salary distribution by skill.
+* Include a method to do a similarity score for a skill list passed in and return a list of job titles.
+
 0.2.3 (2022-11-21)
 -------------------
 
@@ -15,7 +23,7 @@ History
 0.2.1 (2022-11-15)
 ------------------
 
-* Fix issue where dependencies weren't bundling
+* Fix issue where dependencies weren't bundling.
 
 0.2.0 (2022-11-15)
 ------------------

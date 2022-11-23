@@ -6,6 +6,8 @@ Rosetta Stone the purpose of this module is to provide nlp and modeling based me
 and resumes into recommendations on what could be learned to increase salary. 
 
 
+
+
 Indices and tables
 ==================
 * :ref:`genindex`
