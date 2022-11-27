@@ -26,6 +26,21 @@ How to use the Salary Extractor::
     print(salary)
     "40k-50k"
 
+Recommender
+-------------------
+
+How to use the skill recommender:: 
+
+    from salary_stone.salary_extractor import Salary_Extractor
+    from salary_stone.skill_extractor import Skill_Extractor
+    from salary_stone.skill_recommender import recommend
+
+    skille = Skill_Extractor()
+    se = Salary_Extractor()
+    # dat = dataframe of kaggle data.
+    dat['skills'] = dat['job_desc_col'].apply(lambda r: skille.extract_skills(r))
+    skills, vals = recommend(['python'], data=dat, model=se, extracted_scol='skills')
+
 Generating Metrics
 -------------------
 
