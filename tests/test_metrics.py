@@ -12,7 +12,7 @@ def prepare():
     dat = pd.DataFrame({'job_title': ['Data Scientist', 'Software Developer', 'Software Developer', 'Manager'], 'salary_bin': ['40k-50k', '40k-50k', '50-70k', '180k+'], 'skills':[['python', 'keras', 'tensorflow'], ['python', 'tensorflow', 'ai'], ['gitlab', 'python', 'tensorflow', 'keras'], ['excel', 'business', 'managing']]})
     yield dat
 
-class TestSummary:
+class TestMetrics:
 
     def test_skill_freq_default(self, prepare):
         dat = prepare

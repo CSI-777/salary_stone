@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/nickmayn/salary_stone
+    $ git clone git://github.com/CSI-777/salary_stone
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/nickmayn/salary_stone/tarball/master
+    $ curl -OJL https://github.com/CSI-777/salary_stone/tarball/main
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/nickmayn/salary_stone
-.. _tarball: https://github.com/nickmayn/salary_stone/tarball/master
+.. _Github repo: https://github.com/CSI-777/salary_stone
+.. _tarball: https://github.com/CSI-777/salary_stone/tarball/master

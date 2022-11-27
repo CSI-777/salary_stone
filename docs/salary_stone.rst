@@ -28,6 +28,14 @@ salary\_stone.skill\_extractor module
     :undoc-members:
     :show-inheritance:
 
+salary\_stone.skill\_recommender module
+---------------------------------------
+
+.. automodule:: salary_stone.skill_recommender
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------

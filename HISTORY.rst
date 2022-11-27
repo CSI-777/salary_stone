@@ -2,6 +2,12 @@
 History
 =======
 
+0.4.0 (2022-11-27)
+------------------
+
+* Add in the skill recommender module.
+* Add testing for the skill recommender module.
+
 0.3.0 (2022-11-22)
 ------------------
 
